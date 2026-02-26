@@ -27,6 +27,8 @@ List all branches in the repository.
 ### `git merge`
 Merge changes from one branch into another.
 
+### `git fetch`
+Download changes from the remote repository without merging them into your local branch.
 ---
 
 ## Branching
