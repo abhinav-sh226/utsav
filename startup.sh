@@ -7,4 +7,4 @@ cd Backend
 pip install -r requirements.txt
 
 # start FastAPI app
-gunicorn --bind=0.0.0.0:$PORT --worker-class uvicorn.workers.UvicornWorker Backend.app:app
+gunicorn --bind=0.0.0.0:$PORT --worker-class uvicorn.workers.UvicornWorker backend.app:app
